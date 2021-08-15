@@ -11,3 +11,15 @@ Hello man, I am using Selenium with Java
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.google.com");
     }
+
+
+
+--------------------------------------
+
+
+@Test
+    public void Testselenium(){
+        System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
+        WebDriver driver = new ChromeDriver();
+        driver.get("https://www.google.com");
+    }
